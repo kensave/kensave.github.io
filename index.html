@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="fluidCanvas"></canvas>
+    <div class="content">
+        <h1 class="fluid-text" data-text="Kenneth">
+            <span>K</span><span>e</span><span>n</span><span>n</span><span>e</span><span>t</span><span>h</span>
+        </h1>
+        <div class="ide-container">
+            <div class="readme-panel">
+                <div class="panel-header">📄 README.md</div>
+                <div id="readme-content">
+                    <div class="markdown-content">
+                        <h1>Kenneth Sanchez</h1>
+                        <p><strong>Software Development Engineer II | AWS Q Developer CLI - Agentic AI</strong></p>
+                        
+                        <h2>Professional Summary</h2>
+                        <p>Currently at Amazon Web Services working on AWS Q Developer CLI, specializing in automated code manipulation and language syntax parsing. Expert in serverless architecture and distributed systems with a passion for LLMs and semantic context for agentic AI. Created agentic solutions for semantic understanding of conversations and context optimization.</p>
+                        
+                        <h2>Technical Skills</h2>
+                        <p><strong>Languages:</strong> C# • C++ • Java • JavaScript • TypeScript • Rust</p>
+                        <p><strong>Technologies:</strong> AWS Serverless • ECS • CloudFront • Micro-Frontends • Angular • React</p>
+                        <p><strong>Specializations:</strong> Code Analysis • Migration Tools • Performance Optimization • Semantic Context</p>
+                        
+                        <h2>Major Achievements</h2>
+                        <p>• <strong>Patent & Publication:</strong> Created A/B Testing core engine with consistent hashing mechanism - <a href="https://aws.amazon.com/blogs/devops/how-a-b-testing-and-multi-model-hosting-accelerate-generative-ai-feature-development-in-amazon-q/" target="_blank">AWS Blog</a></p>
+                        <p>• <strong>Semantic Search Innovation:</strong> Developed local file system semantic search for terminal - <a href="https://dev.to/aws/manage-context-rot-by-exploring-new-experimental-features-in-amazon-q-cli-10ki" target="_blank">Dev.to Article</a></p>
+                        <p>• <strong>MCP Server:</strong> Built widely popular Model Context Protocol server for natural language queries</p>
+                        <p>• <strong>App Slicer:</strong> Created tool for rapid migration demos in modern web platforms</p>
+                        <p>• <strong>Technical Leadership:</strong> Led teams across Seattle, Los Angeles, Colombia, India, and Costa Rica</p>
+                        <p>• <strong>Microsoft Edge:</strong> Improved enterprise search load times from 1 minute to 3 seconds</p>
+                        
+                        <h2>Personal Projects</h2>
+                        <p>• <strong>LanguageSyntaxCreator:</strong> Pattern matching and JSON grammar parser - <a href="https://github.com/kensave/LanguageSyntaxCreator" target="_blank">GitHub</a></p>
+                        <p>• <strong>RobertoMCP:</strong> Language agnostic code analysis MCP server - <a href="https://github.com/kensave/roberto-mcp" target="_blank">GitHub</a></p>
+
+                        
+                        <h2>Contact</h2>
+                        <p>Bellevue, Washington | <a href="https://www.linkedin.com/in/kenneth-sanchez-0b894b42" target="_blank">LinkedIn</a> | <a href="https://github.com/kensave/" target="_blank">GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="terminal-panel">
+                <div class="panel-header">🔥 Interactive Terminal</div>
+                <div id="terminal">
+                    <div id="terminal-output"></div>
+                </div>
+                <div class="terminal-bottom">
+                    <div class="terminal-status-bar">
+                        <div class="status-indicator">
+                            <span id="status-text">Ready</span>
+                            <span id="status-dot" class="status-ready">●</span>
+                        </div>
+                    </div>
+                    <div class="terminal-input-line">
+                        <span class="prompt">$ </span>
+                        <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" placeholder="Ask me about my experience...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js?v=3"></script>
+</body>
+</html>
